@@ -1,0 +1,115 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;   
+}
+body{
+  font-family: montserrat;  
+}
+.navbar{
+    background-color: #446B7C;
+    height: 80px;
+    width: 100%;
+     
+    /* display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 4vmin;
+   margin-bottom: 1.5rem;
+   scroll-behavior: inherit; */
+}
+label.logomuzeyi{
+color: white;
+font-size: 35px;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+a.active,a:hover{
+background:#753E7B;
+}
+/* /* a, h2{
+    
+    color: white;
+    text-decoration: none;
+    background-color: inherit;
+  } 
+  .iconnav{
+    width: 30px;
+    height: 30px;
+    background-color: inherit; 
+    margin-left: 0px;
+  }
+  .barresaeach{
+    height: 35px;
+    width: 80vh;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-right: -3px;
+  }
+  .section1{
+    background-image: url("../img/eau.png");
+    background-size: cover;
+  
+    display: flex;
+    border-radius: 10px;
+    height: 150vh;
+    border: 1px, solid, black ;
+    margin:20px;
+    padding: 20px;
+  }
+  .aceuilright{
+   background-color: transparent;
+  }
+  .aceuileft{
+    background-color: transparent;
+  }
+
+  .section2{
+    background-image: url("../img/usinejus.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    height: 150vh;
+
+    border-radius: 10px;
+    height: 150vh;
+    border: 1px, solid, black ;
+    margin:20px;
+    padding: 20px;
+  }
+
+  .foot{
+    background-color: #446B7C;
+    height: 30vh;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 4vmin;
+   margin-bottom: 1.5rem;
+   scroll-behavior: inherit;
+}
+
+ nav a { 
+    padding: 0.5rem 0.7rem;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  border-radius: 1.5rem;
+} */
